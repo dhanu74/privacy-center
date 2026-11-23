@@ -1,0 +1,29 @@
+{
+  "developer": {
+    "name": "Your Developer Name",
+    "email": "your-email@example.com"
+  },
+  "apps": [
+    {
+      "slug": "air-mouse",
+      "name": "Air Mouse",
+      "packageId": "com.example.airmouse",
+      "description": "Control your computer with your Android phone.",
+      "policyPath": "policies/air-mouse/"
+    },
+    {
+      "slug": "geotag-camera",
+      "name": "Geotag Camera",
+      "packageId": "com.example.geotagcamera",
+      "description": "Capture photographs with location information.",
+      "policyPath": "policies/geotag-camera/"
+    },
+    {
+      "slug": "chess-game",
+      "name": "Chess Game",
+      "packageId": "com.example.chess",
+      "description": "Play chess against another player or the computer.",
+      "policyPath": "policies/chess-game/"
+    }
+  ]
+}
