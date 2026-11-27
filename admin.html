@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Admin Login – Privacy Center</title><link rel="stylesheet" href="assets/style.css">
+<style>
+.admin-wrap{max-width:680px;margin:0 auto;padding:64px 24px 100px}.admin-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px;margin-top:24px}.status{padding:12px 14px;border-radius:10px;background:#f1f5f9;color:#475467;font-size:14px;line-height:1.6}.status.error{background:#fff1f0;color:#b42318}.status.good{background:#ecfdf3;color:#027a48}.primary-btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;background:#172033;color:#fff;border:0;border-radius:10px;padding:13px 18px;font:inherit;font-size:14px;font-weight:700;text-decoration:none;cursor:pointer}.muted{color:var(--muted);font-size:14px;line-height:1.7}.hidden{display:none!important}
+</style></head>
+<body><header class="topbar"><a class="brand" href="./"><span class="brand-icon">✓</span>Privacy Center</a><span class="top-note">Administrator access</span></header>
+<main class="admin-wrap"><p class="eyebrow">PRIVATE AREA</p><h1 style="font-size:38px;letter-spacing:-1.5px;margin:0">Admin dashboard</h1><p class="muted">Sign in with the authorized GitHub account to manage your application policies.</p>
+<section class="admin-card"><div id="status" class="status" role="status">Checking your sign-in status…</div>
+<div id="loginArea" class="hidden" style="margin-top:20px"><p class="muted">Continue with GitHub. Access is restricted by the Cloudflare Worker to the configured administrator account.</p><a class="primary-btn" href="https://privacy-center-api.dhananjayru74.workers.dev/auth/github">Continue with GitHub ↗</a></div>
+<div id="accountArea" class="hidden" style="margin-top:20px"><h2 style="margin:0 0 8px;font-size:21px">You're signed in</h2><p id="accountName" class="muted"></p><p class="muted">Authentication is connected. Policy editing and publishing will be added next.</p><button id="logout" class="primary-btn" type="button">Sign out</button></div></section>
+<p class="muted" style="margin-top:22px"><a href="./">← Back to public Privacy Center</a></p></main><script src="assets/admin.js"></script></body></html>
